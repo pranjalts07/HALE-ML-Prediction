@@ -22,7 +22,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "normalized_data_path = '/Users/pranjalts/Desktop/RESEARCH/HALE/HALE/dataset/normalized2.csv'  # Replace with the actual path to your normalized dataset\n",
+    "normalized_data_path = '/data/raw/normalized_dataset.csv'  # Replace with the actual path to your normalized dataset\n",
     "normalized_data = pd.read_csv(normalized_data_path)"
    ]
   },

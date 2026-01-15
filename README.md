@@ -13,18 +13,18 @@ This repository provides the **dataset and full reproducible workflow** used in 
 *Healthy Life Expectancy (HALE) Analysis and Prediction using Machine Learning* (IEEE, 2024)  
 Paper: https://ieeexplore.ieee.org/document/10987496
 
-# Overview
+## Overview
 
 This project analyzes and predicts Healthy Life Expectancy at age 60 using machine learning models trained on World Health Organization (WHO) health and socio-economic data from 185 countries (2000–2019).
 By combining robust data imputation, normalization, and model comparison, the study demonstrates the effectiveness of ensemble methods in capturing key determinants of healthy aging across populations.
 
-# Data
+## Data
 
 The dataset is obtained from publicly available World Health Organization (WHO) global health records. It includes Healthy Life Expectancy at age 60 as the target variable along with multiple health, demographic, and socio-economic indicators.
 
 The data covers 185 countries from 2000 to 2019, where each entry represents a country-year observation. This allows comparison across countries as well as analysis of trends over time.
 
-# Methodology
+## Methodology
 
 The project follows a structured machine learning pipeline implemented using multiple Jupyter notebooks:
 
@@ -51,7 +51,7 @@ The project follows a structured machine learning pipeline implemented using mul
   - Evaluate performance using regression metrics  
   - Compare models to identify the best-performing approach
  
-# Models Used
+## Models Used
 
 The following machine learning models are evaluated to predict Healthy Life Expectancy at age 60 (HALE@60):
 
@@ -78,7 +78,7 @@ The following machine learning models are evaluated to predict Healthy Life Expe
 
 These models are compared using standard regression metrics to identify the most effective approach for predicting HALE@60.
 
-# Evaluation Metrics
+## Evaluation Metrics
 
 Model performance is evaluated using:
 
@@ -87,7 +87,7 @@ Model performance is evaluated using:
 - R-squared (R²)  
 - Cross-validation RMSE
 
-# Results
+## Results
 
 The results show that ensemble-based models significantly outperform linear models in predicting Healthy Life Expectancy at age 60.
 
